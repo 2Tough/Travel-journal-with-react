@@ -1,5 +1,6 @@
 export default [
     {
+        id:"1",
         title: "Isla del Coco",
         location: "Costa Rica",
         googleMapsUrl: "https://goo.gl/maps/pr2zTGoqFm1VbHFt9",
@@ -9,6 +10,7 @@ export default [
         imageUrl: "../images/cocos-island.JPG"
     },
     {
+        id:"2",
         title: "Plaza de España",
         location: "Spain",
         googleMapsUrl: "https://goo.gl/maps/Xunjo6Ka1yKSCqfb8",
@@ -17,7 +19,8 @@ export default [
         description: "It was built in 1928 for the Ibero-American Exposition of 1929. It is a landmark example of Regionalism Architecture, mixing elements of the Baroque Revival, Renaissance Revival and Moorish Revival (Neo-Mudéjar) styles of Spanish architecture.",
         imageUrl: "../images/sevilla.JPG"
     },
-    {
+    {   
+        id:"3",
         title: "Zell am See",
         location: "Austria",
         googleMapsUrl: "https://goo.gl/maps/g2twzn2sa3Hkyv6W7",

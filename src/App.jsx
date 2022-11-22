@@ -21,11 +21,11 @@ function App() {
     )
 
   return (
-    <>
-    <Navbar />
+    <div>
+  
     {cards}
 
-    </>
+    </div>
   )
 }
 
