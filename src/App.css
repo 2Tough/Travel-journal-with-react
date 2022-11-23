@@ -3,7 +3,9 @@
 }
 
 body {
-  margin: 0
+  margin: 0;
+  font-family: 'Blinker', sans-serif;
+
 }
 
 p, a {
