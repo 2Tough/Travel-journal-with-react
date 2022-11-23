@@ -1,10 +1,12 @@
 import React from 'react'
 
 
+
 export default function Card(props) {
     return (
         <div className='card'>
             
+            <img src={props.item.imageURL}></img>
             
             <p>{props.item.location}</p>
             <p>{props.item.googleMapsUrl}</p>
