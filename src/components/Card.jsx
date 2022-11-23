@@ -1,5 +1,5 @@
 import React from 'react'
-
+import marker from "../images/marker.png"
 
 export default function Card(props) {
     return (
@@ -9,6 +9,7 @@ export default function Card(props) {
             
             <div className="card--main">
                 <div className="card--top">
+                <img src={marker} className="card--top--img"></img>
                     <p >{props.item.location}</p>
                     <a href="blank" src="{props.item.googleMapsUrl}">View on Google Maps</a>
                 </div>

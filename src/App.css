@@ -11,17 +11,24 @@ body {
 p, a {
   font-size: 10.24px;
   margin: 0;
+  
 }
+
+a {
+  color: #918E9B
+}
+
 
 h3 {
    margin-top: 0.2rem;
    margin-bottom: 0.5rem;
+   font-weight: 400;
 }
 
 .card {
  display: flex;
  margin-left: 2em;
- width: 500px;
+ width: 600px;
  margin-top: 1em;
  padding-bottom: 1em;
  
@@ -29,7 +36,7 @@ h3 {
 }
 
 .card:nth-child(-n+3){
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #F5F5F5;
   
 }
 
@@ -43,7 +50,7 @@ padding-top:0;
 
 
 .card--image {
-  width: 178px;
+  width: 125px;
   height: 168px;
   margin-right: 1.5em;
   object-fit: cover;
@@ -59,12 +66,14 @@ padding-top:0;
 
 .card--top p {
   margin-right: 1em;
+  
 }
 
 .card--middle {
  display: flex;
  flex-direction: column;
  height: 100%;
+ padding-right: 2em;
 }
 
 .card--middle--date {
@@ -82,5 +91,17 @@ padding-top:0;
   justify-content: center;
   padding: 20px;
   background: #F55A5A;
-  color: #FFFFFF
+  color: #FFFFFF;
+  align-items: center
+}
+
+.navbar img {
+  margin-right: 0.5em;
+}
+.card--top--img {
+  width: 10px;
+  height: 10px;
+  margin-right: 0.3em;
+  margin-top: 0.3em;
+  
 }
