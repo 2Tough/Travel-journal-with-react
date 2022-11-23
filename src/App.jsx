@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Card from './Card'
+import Card from './components/Card'
+import Navbar from './components/Navbar'
 import data from './data'
 
 function App() {
@@ -15,14 +16,11 @@ function App() {
     
     />
     )
-  }
-    
-    
-    )
+  })
 
   return (
     <div>
-  
+    <Navbar />
     {cards}
 
     </div>
