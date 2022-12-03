@@ -1,3 +1,5 @@
-# Live preview here
+# Travel journal using React
 
-https://magnificent-gingersnap-fa0a28.netlify.app/
+This was a project in which I practiced more React elements such as components, props and classNames.
+
+Live preview here: https://scrimba.com/scrim/co5dd4918b3fd6cd51f11da4a
